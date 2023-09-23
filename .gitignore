@@ -1,0 +1,20 @@
+# binaryfile
+easy-redis
+
+# Go
+*.exe
+*.test
+*.out
+vendor/
+go.mod
+go.sum
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# Other
+*.log
+*.tmp

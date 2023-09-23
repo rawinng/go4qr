@@ -1,0 +1,23 @@
+# .air.toml
+
+root = "."
+tmp_dir = "tmp"
+build_args = ["-i"]
+color = true
+
+[build]
+  bin = "easy-redis"
+  ldflags = "-s -w"
+  exclude_dir = ["tmp", "vendor"]
+
+[[watcher]]
+  paths = ["."]
+  exclude_paths = ["tmp/*", "vendor/*"]
+  include_exts = ["go"]
+  exclude_exts = ["tpl", "tmpl", "log"]
+  enable_watcher = true
+  polling_interval = 500
+  delay = 1000
+  run_delay = 1000
+  force_build = true
+  clear_screen = false
