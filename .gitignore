@@ -1,5 +1,5 @@
 # binaryfile
-easy-redis
+go4qr
 
 # Go
 *.exe
@@ -8,6 +8,9 @@ easy-redis
 vendor/
 go.mod
 go.sum
+
+# Node.js
+tmp/
 
 # macOS
 .DS_Store
@@ -18,3 +21,4 @@ Thumbs.db
 # Other
 *.log
 *.tmp
+

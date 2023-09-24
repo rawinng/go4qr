@@ -1,7 +1,7 @@
 package routes
 
 import (
-	"easy-redis/pkg/handlers"
+	"github.com/rawinng/go4qr/pkg/handlers"
 
 	"github.com/gin-gonic/gin"
 )

@@ -6,7 +6,7 @@ build_args = ["-i"]
 color = true
 
 [build]
-  bin = "easy-redis"
+  bin = "go4qr"
   ldflags = "-s -w"
   exclude_dir = ["tmp", "vendor"]
 

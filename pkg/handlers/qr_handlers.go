@@ -2,7 +2,7 @@ package handlers
 
 // import gin
 import (
-	"easy-redis/pkg/businesses"
+	"github.com/rawinng/go4qr/pkg/businesses"
 	//gin
 	"net/http"
 

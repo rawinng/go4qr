@@ -2,7 +2,7 @@
 package main
 
 import (
-	"easy-redis/pkg/routes"
+	"github.com/rawinng/go4qr/pkg/routes"
 
 	"github.com/gin-gonic/gin"
 )
