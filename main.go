@@ -11,12 +11,17 @@ func main() {
 	startServer()
 }
 
-func startServer() {
+func prepareServer() *gin.Engine {
 	r := gin.Default()
 	// set up router for /qr
 	api := r.Group("/api/v1")
 	// setup route
 	routes.SetupQrRouter(api)
+	return r
+}
+
+func startServer() {
+	r := prepareServer()
 	// run server
 	r.Run()
 }
